@@ -1,13 +1,18 @@
 {
     "name"                          : "ee-soa-service-manager"
     , "description"                 : "Service Manager for the ee-soa framework"
-    , "version"                     : "0.1.1"
+    , "version"                     : "0.1.2"
     , "author": {
           "name"                    : "Tobias Kneubuehler"
         , "email"                   : "tobias@joinbox.com"
     }
     , "contributors": [
         {
+              "name"                : "Tobias Kneubuehler"
+            , "email"               : "tobias@joinbox.com"
+            , "url"                 : "http://joinbox.com/"
+        }
+        , {
               "name"                : "Michael van der Weg"
             , "email"               : "michael@joinbox.com"
             , "url"                 : "https://eventemitter.com/"
@@ -41,5 +46,5 @@
     , "scripts": {
         "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
     }
-    , "keywords"                    : []
+    , "keywords"                    : ["Service Oriented Architecture", "SOA", "Service", "ee-soa", "ee"]
 }
