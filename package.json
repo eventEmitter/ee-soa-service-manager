@@ -1,37 +1,45 @@
 {
-    "name"                          : "ee-service-manager"
-    , "description"                 : "manager for ee-services"
-    , "keywords"                    : []
+    "name"                          : "ee-soa-service-manager"
+    , "description"                 : "Service Manager for the ee-soa framework"
     , "version"                     : "0.1.0"
     , "author": {
-        "name"                      : "Tobias Kneubuehler"
+          "name"                    : "Tobias Kneubuehler"
         , "email"                   : "tobias@joinbox.com"
     }
+    , "contributors": [
+        {
+              "name"                : "Michael van der Weg"
+            , "email"               : "michael@joinbox.com"
+            , "url"                 : "https://eventemitter.com/"
+        }
+    ]
     , "licence"                     : "mit"
+    , "os"                          : "!win"
     , "repository": {
-        "url"                       : ""
+        "url"                       : "https://github.com/eventEmitter/ee-service-manager.git"
         , "type"                    : "git"
     }
     , "engines": {
         "node"                      : ">= 0.10.26"
     }
     , "bugs": {
-        "url"                       : ""
+          "url"                     : "https://github.com/eventEmitter/ee-service-manager/issues"
         , "email"                   : "tobias@joinbox.com"
     }
     , "dependencies": {
-        "ee-class"                  : "*"
-        , "ee-log"                  : "*"
-        , "ee-project"              : "*"
-        , "ee-types"                : "*"
-        , "ee-event-emitter"        : "*"
+          "ee-class"                : "0.3.x"
+        , "ee-log"                  : "0.2.x"
+        , "ee-project"              : "0.1.x"
+        , "ee-types"                : "0.1.x"
+        , "ee-event-emitter"        : "0.1.x"
     }
     , "devDependencies": {
-        "mocha"                     : "*"
+          "mocha"                   : "1.18.x"
+        , "ee-travis"               : "0.1.x"
     }
     , "optionalDependencies": {}
     , "scripts": {
         "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
     }
-    , "private"                     : true
+    , "keywords"                    : []
 }
