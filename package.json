@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-soa-service-manager"
     , "description"                 : "Service Manager for the ee-soa framework"
-    , "version"                     : "0.1.4"
+    , "version"                     : "0.1.5"
     , "author"                      : "Tobias Kneubühler <tobias@joinbox.com> (http://joinbox.com/)"
     , "contributors": [
           "Tobias Kneubühler <tobias@joinbox.com> (http://joinbox.com/)"
