@@ -1,7 +1,7 @@
 {
       "name"                        : "ee-soa-service-manager"
     , "description"                 : "Service Manager for the ee-soa framework"
-    , "version"                     : "0.1.6"
+    , "version"                     : "0.1.7"
     , "author"                      : "Tobias Kneubühler <tobias@joinbox.com> (http://joinbox.com/)"
     , "contributors": [
           "Tobias Kneubühler <tobias@joinbox.com> (http://joinbox.com/)"
@@ -20,7 +20,7 @@
           "url"                     : "https://github.com/eventEmitter/ee-service-manager/issues"
     }
     , "dependencies": {
-          "ee-class"         : "0.3.x"
+          "ee-class"         : "1.0.x"
         , "ee-log"           : "0.2.x"
         , "ee-project"       : "0.2.x"
         , "ee-types"         : "0.1.x"
