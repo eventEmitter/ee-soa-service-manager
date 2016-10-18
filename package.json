@@ -1,39 +1,25 @@
 {
       "name"                        : "ee-soa-service-manager"
     , "description"                 : "Service Manager for the ee-soa framework"
-    , "version"                     : "0.1.11"
-    , "author"                      : "Tobias Kneubühler <tobias@joinbox.com> (http://joinbox.com/)"
-    , "contributors": [
-          "Tobias Kneubühler <tobias@joinbox.com> (http://joinbox.com/)"
-        , "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)"
-    ]
-    , "licence"                     : "mit"
-    , "os"                          : "!win"
+    , "version"                     : "1.0.0"
+    , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)"
+    , "license"                     : "MIT"
     , "repository": {
           "url"                     : "https://github.com/eventEmitter/ee-service-manager.git"
         , "type"                    : "git"
     }
     , "engines": {
-        "node"                      : ">= 0.10.26"
+        "node"                      : ">=6"
     }
     , "bugs": {
           "url"                     : "https://github.com/eventEmitter/ee-service-manager/issues"
     }
     , "dependencies": {
-          "ee-class"         : "1.0.x"
-        , "ee-log"           : "0.2.x"
-        , "ee-project"       : "0.2.x"
-        , "ee-types"         : "0.1.x"
-        , "ee-event-emitter" : "0.1.x"
-        , "ee-argv"          : "0.1.x"
+          "ee-types"                : "1.x"
+        , "ee-log"                  : "0.3.x"
     }
-    , "devDependencies": {
-          "mocha"                   : "1.18.x"
-        , "ee-travis"               : "0.1.x"
-    }
+    , "devDependencies": {}
     , "optionalDependencies": {}
-    , "scripts": {
-        "test"                      : "./node_modules/mocha/bin/mocha --reporter spec"
-    }
-    , "keywords"                    : ["Service Oriented Architecture", "SOA", "Service", "ee-soa", "ee"]
+    , "scripts": {}
+    , "keywords"                    : ["ee-soa"]
 }
