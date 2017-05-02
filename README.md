@@ -1,5 +1,7 @@
 # ee-soa-service-manager
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/ee-soa-service-manager.svg)](https://greenkeeper.io/)
+
 Service Manager for the ee-soa framework
 
 This is early alpha stage software, your shouldn't use it unless you know what you are doing ;)
