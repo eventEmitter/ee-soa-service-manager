@@ -15,8 +15,8 @@
           "url"                     : "https://github.com/eventEmitter/ee-service-manager/issues"
     }
     , "dependencies": {
-          "ee-types"                : "1.x"
-        , "ee-log"                  : "0.3.x"
+          "ee-types"                : "^2.1.2"
+        , "ee-log"                  : "~2.0.2"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
